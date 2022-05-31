@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "epubcheck/ruby"
+require "epubcheck/ruby/cli"
+
+cli = Epubcheck::Ruby::CLI.new
+cli.execute(ARGV)
+exit($?.exitstatus)

@@ -1,0 +1,14 @@
+*.gem
+*.swp
+/pkg
+/.bundle
+/.idea
+/vendor/bundle
+/Gemfile.lock
+/.ruby-version
+/.ruby-gemset
+ext/*
+!ext/Rakefile
+bin/
+*.tar.gz
+*.zip

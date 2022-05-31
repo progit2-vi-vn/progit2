@@ -1,0 +1,14 @@
+current directory: /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/kindlegen-3.1.1/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -rrubygems /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/kindlegen-3.1.1 RUBYLIBDIR\=/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-21/2.6.0/kindlegen-3.1.1
+rake aborted!
+Zlib::GzipFile::Error: not in gzip format
+/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/kindlegen-3.1.1/ext/Rakefile:31:in `initialize'
+/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/kindlegen-3.1.1/ext/Rakefile:31:in `open'
+/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/kindlegen-3.1.1/ext/Rakefile:31:in `block in create_task_for_unix'
+/Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/rake-13.0.6/exe/rake:27:in `<main>'
+Tasks: TOP => default => install => kindlegen
+(See full trace by running task with --trace)
+open(https://web.archive.org/web/20200814013519/https://kindlegen.s3.amazonaws.com/KindleGen_Mac_i386_v2_9.zip)
+save to KindleGen_Mac_i386_v2_9.zip
+
+rake failed, exit code 1

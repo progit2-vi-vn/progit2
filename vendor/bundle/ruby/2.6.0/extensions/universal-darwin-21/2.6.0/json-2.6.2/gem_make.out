@@ -1,0 +1,13 @@
+current directory: /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220531-25622-197lcxb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/chungtbui/Desktop/progit2/vendor/bundle/ruby/2.6.0/gems/json-2.6.2/ext/json
+make "DESTDIR=" install
