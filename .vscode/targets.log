@@ -10,7 +10,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue May 31 14:50:38 2022
+# Make data base, printed on Wed Jun  1 09:13:22 2022
+ 
 
 # Variables
 
@@ -18,8 +19,6 @@ make: *** No rule to make target `all'.  Stop.
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -45,10 +44,9 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
- 
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/p6/92w5g1ls6w19gnn5_w7m82980000gn/T/vscode-ipc-18a64723-3c52-44e8-a310-2afdc9d063db.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/p6/92w5g1ls6w19gnn5_w7m82980000gn/T/vscode-ipc-a54e7268-655f-4688-9752-87303feb4432.sock
 # environment
-VSCODE_CWD = /Volumes/Data/github/progit2
+VSCODE_CWD = /
 # environment
 PATH = /Users/chungtbui/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/chungtbui/.cargo/bin:/Users/chungtbui/go/bin:/Users/chungtbui/bin
 # environment
@@ -78,8 +76,6 @@ HOME = /Users/chungtbui
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CLI = 1
-# environment
 VSCODE_CODE_CACHE_PATH = /Users/chungtbui/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = chungtbui
@@ -91,36 +87,29 @@ NVM_CD_FLAGS = -q
 ZSH = /Users/chungtbui/.oh-my-zsh
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+ 
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 XPC_FLAGS = 0x0
-# environment
-COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
 # environment
-LC_TERMINAL = iTerm2
-# environment
-SHLVL = 3
+SHLVL = 1
 # default
 MAKE_VERSION := 3.81
 # environment
 USER = chungtbui
 # makefile
 .DEFAULT_GOAL := 
-# default
-MAKECMDGOALS := all
-# environment
-TERM_SESSION_ID = w0t0p0:C885AFA6-BD18-4055-9451-0906E731B9C2
 # environment
 LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
-# environment
-TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
@@ -136,21 +125,13 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 3.4.15
-# environment
 NVM_DIR = /Users/chungtbui/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.9239943.9239951.77DC957B-F8FA-4F37-91C7-3351525FBF2A
-# environment
-LC_TERMINAL_VERSION = 3.4.15
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.9239943.9239951
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
-# environment
-ITERM_SESSION_ID = w0t0p0:C885AFA6-BD18-4055-9451-0906E731B9C2
-# environment
-COLORFGBG = 7;0
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -159,8 +140,6 @@ COMMAND_MODE = unix2003
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# environment
-ITERM_PROFILE = Default
 # environment
 EDITOR = vim
 # environment
@@ -178,11 +157,10 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 26818
+VSCODE_PID = 31355
 # variable set hash-table stats:
-# Load=83/1024=8%, Rehash=0, Collisions=5/104=5%
+ 
+# Load=71/1024=7%, Rehash=0, Collisions=2/92=2%
 
 # Pattern-specific Variable Values
 
@@ -190,7 +168,6 @@ VSCODE_PID = 26818
 
 # Directories
 
- 
 # . (device 16777224, inode 9348077): 46 files, no impossibilities.
 
 # 46 files, no impossibilities in 1 directories.
@@ -265,6 +242,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue May 31 14:50:38 2022
+# Finished Make data base on Wed Jun  1 09:13:22 2022
 
  
