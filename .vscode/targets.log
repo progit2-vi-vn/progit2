@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue May 31 14:50:38 2022
+# Make data base, printed on Sun Jun  5 07:43:27 2022
 
 # Variables
 
@@ -22,8 +22,6 @@ make: *** No rule to make target `all'.  Stop.
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
-# environment
-NVM_INC = /Users/chungtbui/.nvm/versions/node/v16.14.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -45,16 +43,13 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
- 
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/p6/92w5g1ls6w19gnn5_w7m82980000gn/T/vscode-ipc-18a64723-3c52-44e8-a310-2afdc9d063db.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/3b/ttrx28td7bnbt933txhdbl8m0000gn/T/vscode-ipc-82d3081f-e5fe-4ce1-a6ab-7f5b7fe11284.sock
 # environment
 VSCODE_CWD = /Volumes/Data/github/progit2
 # environment
-PATH = /Users/chungtbui/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/chungtbui/.cargo/bin:/Users/chungtbui/go/bin:/Users/chungtbui/bin
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/chungtbui/go/bin:/Users/chungtbui/jetbrains
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-NVM_BIN = /Users/chungtbui/.nvm/versions/node/v16.14.0/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -62,7 +57,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.zUCXxnzyn8/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Z7XHR1NhM6/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -80,13 +75,11 @@ MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /De
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/chungtbui/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /Users/chungtbui/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 LOGNAME = chungtbui
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-NVM_CD_FLAGS = -q
 # environment
 ZSH = /Users/chungtbui/.oh-my-zsh
 # environment
@@ -112,7 +105,7 @@ USER = chungtbui
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t0p0:C885AFA6-BD18-4055-9451-0906E731B9C2
+TERM_SESSION_ID = w0t0p0:E631C685-398D-46CD-8DC2-50539B7C82C8
 # environment
 LESS = -R
 # automatic
@@ -124,11 +117,11 @@ TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
-TMPDIR = /var/folders/p6/92w5g1ls6w19gnn5_w7m82980000gn/T/
+TMPDIR = /var/folders/3b/ttrx28td7bnbt933txhdbl8m0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/chungtbui/Library/Application Support/Code/1.67.2-main.sock
+VSCODE_IPC_HOOK = /Users/chungtbui/Library/Application Support/Code/1.67.1-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -138,9 +131,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.4.15
 # environment
-NVM_DIR = /Users/chungtbui/.nvm
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.9239943.9239951.77DC957B-F8FA-4F37-91C7-3351525FBF2A
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.1847075.1847081.70EA8658-1AD4-4FF5-B34E-97E62F3A61D1
 # environment
 LC_TERMINAL_VERSION = 3.4.15
 # automatic
@@ -148,7 +139,7 @@ LC_TERMINAL_VERSION = 3.4.15
 # automatic
 +F = $(notdir $+)
 # environment
-ITERM_SESSION_ID = w0t0p0:C885AFA6-BD18-4055-9451-0906E731B9C2
+ITERM_SESSION_ID = w0t0p0:E631C685-398D-46CD-8DC2-50539B7C82C8
 # environment
 COLORFGBG = 7;0
 # environment
@@ -180,9 +171,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 26818
+VSCODE_PID = 53280
 # variable set hash-table stats:
-# Load=83/1024=8%, Rehash=0, Collisions=5/104=5%
+# Load=79/1024=8%, Rehash=0, Collisions=5/100=5%
 
 # Pattern-specific Variable Values
 
@@ -190,10 +181,9 @@ VSCODE_PID = 26818
 
 # Directories
 
- 
-# . (device 16777224, inode 9348077): 46 files, no impossibilities.
+# . (device 16777218, inode 10914375): 41 files, no impossibilities.
 
-# 46 files, no impossibilities in 1 directories.
+# 41 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -265,6 +255,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Tue May 31 14:50:38 2022
+# Finished Make data base on Sun Jun  5 07:43:27 2022
 
  

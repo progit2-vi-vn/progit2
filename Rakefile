@@ -31,7 +31,7 @@ namespace :book do
   end
 
   desc 'build basic book formats'
-  task :build => [:build_html, :build_epub, :build_mobi, :build_pdf] do
+  task :build => [:build_html, :build_epub, :build_pdf] do
     begin
         # Run check
         Rake::Task['book:check'].invoke
